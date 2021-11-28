@@ -17,8 +17,8 @@ class Card extends React.Component{
         return(
             <div className="scene" onClick={this.handleClick}>
             <div className={"card " + (this.state.showBack ? "is-flipped" : "")}>
-              <div className="card__face card__face--front">this is the front</div>
-              <div className="card__face card__face--back">this is on the back and more stuff</div>
+              <div className="card-body d-flex justify-content-center align-items-center card__face card__face--front">reir</div>
+              <div className="card-body d-flex justify-content-center align-items-center card__face card__face--back">to laugh</div>
             </div>
           </div>
         )
