@@ -17,7 +17,7 @@ class Card extends React.Component{
         return(
             <div className="col-8 scene" onClick={this.handleClick}>
             <div className={"card " + (this.state.showBack ? "is-flipped" : "")}>
-              <div className="card-body d-flex justify-content-center align-items-center card__face card__face--front">REIR</div>
+              <div className="card-body d-flex justify-content-center align-items-center card__face card__face--front">REIRnp</div>
               <div className="card-body d-flex justify-content-center align-items-center card__face card__face--back">to laugh</div>
             </div>
           </div>

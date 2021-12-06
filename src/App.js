@@ -13,10 +13,8 @@ function App() {
       <div className="row">
         <div className="col-2">CONTROLS?</div>
         < Card />
-      <div className="col-2">API CALL TO PICTURE?</div>
-     
+        <div className="col-2">API CALL TO PICTURE?</div>
         <RenderCards words={words}/>
-     
       </div>
     </div>
   );
